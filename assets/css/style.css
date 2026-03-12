@@ -91,7 +91,12 @@ main {
 }
 
 /* footer */
-footer { background-color:orange ;} 
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+} 
 
 /* media query for larger screens over 768px */
 @media screen and (min-width: 768px) {
