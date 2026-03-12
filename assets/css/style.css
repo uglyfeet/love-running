@@ -92,3 +92,36 @@ main {
 
 /* footer */
 footer { background-color:orange ;} 
+
+/* media query for larger screens over 768px */
+@media screen and (min-width: 768px) {
+    /* styles for larger screens */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content; 
+        padding-right: 1rem;
+    }
+    #menu {
+        display: flex;
+    }
+    #menu > li {
+        padding-left: 1rem;
+    }   
+    .nav-toggle-label{
+            display: none;
+    }
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    } 
+    /* main cont */
+        main {
+            /* push the main content down to make room for the fixed header */  
+            margin-top: 79px; /* height of the header */
+        }
+
+
+}
