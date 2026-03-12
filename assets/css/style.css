@@ -96,7 +96,14 @@ main {
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
+    list-style-type: none;
 } 
+
+#social-networks i {
+    color: #3a3a3a;
+    font-size: 160%;
+    padding: 5%;
+}
 
 /* media query for larger screens over 768px */
 @media screen and (min-width: 768px) {
