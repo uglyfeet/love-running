@@ -84,10 +84,15 @@ nav  {
 }
 /* main */
 main {
-    background-color:lightblue ;
+
     /* make the main content area grow to fill the available space */
     flex: 1 0 auto;
     margin-top: 47px; /* height of the header */
+    #hero {
+        height: 600px;
+        width: 100%;
+        background: url('../images/hero-image.webp') no-repeat center center/cover;  
+    }
 }
 
 /* footer */
